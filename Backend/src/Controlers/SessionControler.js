@@ -8,7 +8,7 @@ module.exports = {
         .first();
 
         if(!ong){
-            return response.status(400).json({error:"no ong fin with this id"});
+            return response.status(400).json({error:"No ong find with this id"});
         }
         return response.json(ong)
     }
